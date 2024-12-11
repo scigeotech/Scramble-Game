@@ -394,7 +394,7 @@ int main(int argc, char *argv[]) {
     int server_socket = server_setup();
     printf("Server ready on port %s\n", server_port);
     printf("Play game: no additional arguments, go to localhost:8000\n");
-    printf("Serve files: need just 2 arguments, do ./Server (directory)\n\n");
+    printf("Serve files: need just 2 arguments, do ./Scramble (directory)\n\n");
     if (argc != 2) {
         printf("Starting the game...\n");
         word_count = initialization();
